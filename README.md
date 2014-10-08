@@ -12,17 +12,29 @@ In the iterators lab we will be continuing our exploration of iterators and buil
 Research the following term and summarize your findings on it two to three sentences:
 
 * `higher-order function`
+	A function that deals with one or more other functions in either or both of these capacities: taking one or more inpots as a function, OR outputting a function. 
 
 Pretending we implemented the following methods, update this README with a description of each of the following and an example you've created:
 
 * `max`
+	returns the maximum value of zero or more numbers.
+	e.g.
+	Math.max(1,2,3,4,5);
+	/will return 5
 * `min`
+	returns the minimum value of zero or more numbers.
+ 	Math.min(20,234);
+ 	/will return 20
 * `each`
+	selects each element on the array to operate the function on.
 * `map`
+	takes one array, operates a function on it and creates a new array
 * `filter`: [note](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
+	creates a new array containing all the elements passing a test implemented by the given function
 * `reduce`: [note](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
+	starts from the beginning of the array, adds the first two together then takes this cumulative total and adds the next, and so on, until all the elements in the array have been added together.
 * `reject`: [note](http://underscorejs.org/#reject)
-
+	reates a new array containing all the elements NOT passing a test implemented by the given function
 Use the notes provided to help guide you explanation.
 
 
